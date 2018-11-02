@@ -1,6 +1,6 @@
 'use strict';
 
-const MinHeap = require('../min-heap/main');
+const MinHeap = require('./min-heap/main');
 
 function dijkstra(Adj, s) {
   const queue = new MinHeap();
